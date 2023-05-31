@@ -1,0 +1,244 @@
+*{
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+    padding: 1%;
+    margin: auto;
+    background-color: rgb(164, 164, 111);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: beige;
+}
+
+#What_Arepa h1 {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#What_Arepa p{
+    margin: -25px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+#What_Arepa img{
+    margin-left: -37px;
+}
+
+#image_{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 2%;
+}
+#img_2{
+    margin-bottom: -1em;
+}
+
+/* Date  */
+
+.good_date{
+    display: flex;
+    align-items: center;
+}
+
+.info aside {
+    width: 60%;
+    padding: 30px;
+    float: right;
+    background-color: rgb(164, 164, 111);
+    font-style: italic;
+
+  }
+#content{
+    width: 60%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-right: -46px;
+}
+
+#content p {
+    padding: 37px;
+
+
+
+}
+
+
+/* Ingredients */
+
+#ingredients_arepa h2{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+}
+#ingredients_arepa ul{ 
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: -23px;
+    margin-right: -20px;
+}
+#ingredients_arepa ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+.Ingredients{
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+/* aside2 */
+#tipos{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    padding: 37px;
+    margin-right: -18px;
+    margin-top: -0px;
+}
+#tipos ul li {
+    display: flex;
+    flex-direction: column;   
+    padding: 4%;
+    
+}
+#tipos ul li a{
+    text-decoration: none;
+    padding-bottom: 20%;
+    color: black;
+    border: 10%;
+}
+
+#tipos ul li a :hover{
+    color: white;
+}
+/* Steps */
+
+#Steps{
+    margin-left: -40px;
+    padding: auto;
+}
+#How h2{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.number{
+    font-size: 30px;
+    background-color:rgb(164, 164, 111);
+    color: white;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+
+.description{
+    width: 80%;
+    padding: 2%;
+    margin: 0%;
+}
+
+/* .description p {
+    display: flex;
+    flex-direction: column;
+    column-width: auto;
+    margin-left: -1px;
+    
+} */
+.description  p strong{
+    margin-left: -1px ;
+    display: flex;
+    flex-direction: column;
+    column-width: auto;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 1%;
+    background-color: rgb(164, 164, 111);
+    color: white;
+    text-align: center;
+}
+
+footer h3{
+    display: flex;
+    justify-content: center;
+}
+
+
+#footy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icons ul li {
+    margin-right: 10px;
+    font-size: xx-large ;
+  }
+  .icons a{
+    color: white;
+  }
+  
+  #More form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color:rgb(180, 180, 121);
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
